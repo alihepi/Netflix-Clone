@@ -18,3 +18,10 @@
 7. [Back-End](./readme/Backend.md)
 8. [Test](./readme/Test.md)
 9. [Geliştirici ve Kullanıcı Dökümantasyonları](./readme/DevAndUserDoc.md)
+
+---
+<br/>
+<br/>
+
+#### Üyelik İçin Ödeme Kodları
+[Payment Codes](./frontend/src/PaymentCodes.json) json dosyasında bulunan herhangi bir ödeme kodunu ya da <b>"Y8JGZWPGE7"</b> ödeme kodunu kullanarak direkt üyelik oluşturabilirsiniz. <br/>
