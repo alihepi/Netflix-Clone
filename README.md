@@ -19,8 +19,8 @@
 8. [Test](./readme/Test.md)
 9. [Geliştirici ve Kullanıcı Dökümantasyonları](./readme/DevAndUserDoc.md)
 
----
 <br/>
+---
 <br/>
 
 #### Üyelik İçin Ödeme Kodları
