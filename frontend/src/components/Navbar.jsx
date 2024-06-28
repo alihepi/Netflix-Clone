@@ -73,7 +73,7 @@ const Navbar = ({ userPage = false, setSearchMov, handleLogout = () => { } }) =>
     return (
         <div id='navbar' className='d-flex col-12 float-left align-items-center justify-content-between'>
             <div className='d-flex float-left gap-5 justify-content-center align-items-center'>
-                <img className='nav-logo' alt='netflix.com' type='png' src={logo} style={{ cursor: 'pointer' }} onClick={() => navigate('/browse')} />
+                <img className='nav-logo' alt='netflix.com' type='png' src={logo} style={{ cursor: 'pointer' }} />
                 {userPage ? (
                     <div className='d-flex float-left gap-4 justify-content-center align-items-center cursor-pointer'>
                         <div onClick={() => {
