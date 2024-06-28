@@ -1,0 +1,20 @@
+.upload-video-panel{
+    min-height: calc(100vh - 5rem);
+}
+
+.movie-cover-photo{
+    min-width: 25rem;
+    min-height: 15rem;
+    max-width: 25rem;
+    max-height: 15rem;
+    object-fit: cover;
+    background: linear-gradient(rgba(60,60,60, 1), rgba(0, 0, 0, 0)) top,
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.95)) bottom;
+}
+
+.movie-video{
+    width: 25rem;
+    height: 15rem;
+    max-width: 25rem;
+    max-height: 15rem;
+}

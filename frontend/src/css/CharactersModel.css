@@ -1,0 +1,46 @@
+.add-character-modal{
+    background: transparent;
+    backdrop-filter: blur(1px);
+    --webkit-backdrop-filter: blur(1px);
+    position: absolute;
+    min-height: 100vh;
+    min-width: 100%;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.character-inputs{
+    padding: 1rem 1.5rem;
+    background: #181818;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+}
+
+
+.add-character-set{
+    font-size: 0.95rem;
+}
+.add-character-set div{
+    min-width: 5rem;
+}
+.add-character-set input{
+    border: none;
+    border-bottom: 2px solid gray;
+    background: none;
+    padding: 0.25rem;
+}
+.add-character-set input:focus{
+    outline: none;
+    border-bottom: 2px solid red;
+}
+
+
+.characters-buttons{
+    margin-top: 0.5rem;
+    min-width: 100%;
+}
+.characters-buttons button{
+    font-size: 0.8rem;
+}

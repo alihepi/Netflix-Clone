@@ -1,0 +1,77 @@
+.episodes-btn-det{
+    min-width: 100%;
+    padding: 0 5rem;
+}
+.episodes-btn-det button{
+    border: none;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+    background: gray;
+}
+.episodes-btn-det button:hover{
+    background: #333;
+    color: white;
+}
+
+.add-new-episode{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+}
+
+
+.episode-inf{
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.episode-photo-set{
+    max-width: 17rem;
+    min-width: 17rem;
+    max-height: 10rem;
+    min-height: 10rem;
+    object-fit: cover;
+    background: linear-gradient(rgba(60,60,60, 1), rgba(0, 0, 0, 0)) top,
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.95)) bottom;
+}
+.episode-video-set{
+    max-width: 17rem;
+    min-width: 17rem;
+    max-height: 10rem;
+    min-height: 10rem;
+}
+.episode-inf-set .add-movie-details input{
+    min-width: 24rem;
+}
+
+.similar-movie-episode{
+    border-bottom: 2px solid rgb(75, 75, 75);
+    padding: 0.85rem;
+}
+.similar-movie-episode:hover{
+    border-bottom: 2px solid rgb(99, 99, 99);
+    background: rgb(32, 32, 32);
+}
+.similar-movie-episode .sm-play-btn {
+    position: absolute;
+    top: 52.5%;
+    left: 16.75%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+.similar-movie-episode img{
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+.similar-movie-episode div {
+    font-size: 0.75rem;
+    max-width: 100%;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    background: none;
+    color: rgb(185, 185, 185);
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    min-height: 7.25rem;
+    max-height: 7.25rem;
+    overflow: hidden;
+}

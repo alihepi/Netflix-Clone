@@ -1,0 +1,112 @@
+.movies-list{
+    min-height: 83vh;
+    min-width: 100%;
+}
+.update-film-list{
+    padding: 1rem 2rem;    
+}
+.update-film-list h2{
+    min-width: 95%;
+    padding: 0 0 0.5rem 0;
+    border-bottom: 1px solid grey;
+}
+.movies-list{
+    min-width: 100%;
+}
+.update-film-list h2 span{
+    font-size: 0.95rem;
+    color: grey;
+    border: none;
+    background: rgb(59, 59, 59);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}
+.upp-mov-inf-right{
+    min-width: 65%;
+    padding: 0 0 0 2rem;
+}
+.list-all-movie{
+    max-width: 21rem;
+    max-height: 14.25rem;
+    padding: 0.25rem;
+    background: rgb(59, 59, 59);
+    border-radius: 0.45rem;
+}
+.list-all-movie:hover{
+    scale: 1.1;
+    transition: 0.25s;
+}
+.list-all-movie:not(:hover){
+    scale: 1;
+    transition: 0.25s;
+}
+.list-all-movie img{
+    min-width: 20rem;
+    max-width: 20rem;
+    min-height: 11rem;
+    max-height: 11rem;
+    object-fit: cover;
+    border-radius: 0.25rem;
+}
+
+.movie-update-page{
+    padding: 0.5rem 0 2rem 1rem;
+}
+
+.upp-mov-inf-det{
+    min-width: 100%;
+}
+.upp-mov-inf-det div{
+    min-width: 45%;
+}
+.upp-mov-inf-det div div{
+    min-width: 100%;
+    padding: 0.25rem;
+}
+.upp-mov-inf-det div div span{
+    min-width: 7rem;
+}
+.upp-mov-inf-det div div span:first-child{
+    font-weight: bold;
+}
+
+.update-detail div input{
+    min-width: 17rem;
+    border: none;
+    background: none;
+    border-bottom: 2px solid grey;
+}
+.update-detail div input:focus{
+    outline: none;
+    border-bottom: 2px solid red;
+}
+.update-detail div select{
+    min-width: 17rem;
+    padding: 0.25rem 0;
+}
+
+.add-mov-inf-desc div span textarea{
+    background: none;
+    border: none;
+    overflow-y: hidden;
+    border-left: 2px solid transparent;
+    padding: 0 0 0 1rem;
+}
+.add-mov-inf-desc div span textarea:focus{
+    outline: none;
+    border-left: 2px solid red;
+}
+
+.upp-character i{
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.upp-character i:first-child{
+    color: red;    
+}
+.add-mov-inf-characters i{
+    color: green;
+}
+.add-mov-inf-characters{
+    max-width: 10rem;
+}

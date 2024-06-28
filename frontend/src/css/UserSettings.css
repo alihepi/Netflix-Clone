@@ -1,0 +1,26 @@
+.user-settings-main{
+    padding: 0 5rem;
+    min-height: calc(100vh - 13rem);
+}
+.user-settings-main h4{
+    min-width: 32rem;
+}
+
+.update-user-sp{
+    border: 1px solid gray;
+    border-radius: 0.75rem;
+    max-width: min-content;
+    padding: 2rem;
+}
+
+.update-user-sp span span{
+    min-width: 7rem;
+}
+.update-user-sp span input{
+    color: black;
+    background: rgb(170, 170, 170);
+    border: none;
+    border-radius: 0.35rem;
+    min-width: 19rem;
+    padding: 0.25rem 0.5rem;
+}

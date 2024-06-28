@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <link rel="icon" type="png" href="/favicon.png" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome 6.0.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Netflix</title>
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- Bootstrap 5 JS (Make sure to include Popper.js if needed) -->
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script type="module" src="/src/main.jsx"></script>
+
+  <script>
+    window.addEventListener('beforeunload', function () {
+      localStorage.clear();
+    });
+  </script>
+</body>
+
+</html>

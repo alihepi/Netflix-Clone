@@ -1,0 +1,68 @@
+.login-register{
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 2;
+
+}
+.login-set{
+    min-width: 100vw;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.39);
+    position: absolute;
+    top: 0;
+}
+.login-set1{
+    min-width: 100%;
+    min-height: 42.5rem;
+}
+.login-det{
+    width: 23rem;
+    height: 27rem;
+    background: rgba(0, 0, 0, 0.750);
+    border-radius: 0.75rem;
+    padding: 1.5rem 2rem;
+}
+.login-det div{
+    min-width: 100%;
+}
+.login-det div input{
+    width: 100%;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: #3a4f6962;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.login-det div button{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: rgb(231, 37, 37);
+    border: none;
+    font-size: 0.8rem;
+}
+.login-det div button:hover{
+    cursor: pointer;
+    background: rgb(231, 30, 30);
+}
+.f-p{
+    font-size: 0.85rem;
+    color: rgb(88, 88, 255);
+}
+.f-p:hover{
+    color: rgb(118, 118, 255);
+    cursor: pointer;
+}
+.register{
+    font-size: 0.85rem;
+    color: gray;
+    display: flex;
+    gap: 0.25rem;
+}
+.register span{
+    cursor: pointer;
+}

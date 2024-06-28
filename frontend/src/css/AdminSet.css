@@ -1,0 +1,62 @@
+.admin-set-page-set {
+    min-height: 100%
+}
+
+.admin-set-btn {
+    border: 1px solid gray;
+    background: rgb(24, 24, 24);
+    border-radius: 0.5rem;
+    padding: 0.35rem 0.5rem;
+}
+
+.admin-set-btn:hover {
+    background: rgb(44, 44, 44);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btn-sc-set {
+    min-height: calc(100vh - 20rem);
+}
+
+.add-admin-inputs-set {
+    max-width: min-content;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    background: rgb(24, 24, 24);
+    padding: 2.5rem;
+}
+
+.add-admin-inputs span {
+    min-width: 7rem;
+    font-weight: bold;
+}
+
+.add-admin-inputs input {
+    padding: 0.25rem 0.25rem;
+    background: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    min-width: 15rem;
+}
+
+.add-admin-inputs input:focus {
+    outline: none;
+    border-bottom: 2px solid red;
+}
+
+.add-admin-inputs input::-ms-reveal {
+    filter: invert(100%);
+}
+
+.add-save-btn{
+    min-width: 27.75rem;
+}
+
+
+.admin-name{
+    border: 1px solid gray;
+    padding: 0.25rem 0.5rem;
+    max-width: 20rem;
+    border-radius: 0.35rem;
+}

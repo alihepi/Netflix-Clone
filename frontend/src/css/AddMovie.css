@@ -1,0 +1,163 @@
+.movie-det-page {
+    padding: 2rem 0 0 0;
+}
+
+.add-movie-det {
+    min-height: calc(100vh - 7rem);
+    min-width: 100%;
+}
+
+.add-movie-det-div {
+    min-width: 80%;
+}
+
+.add-movie-details {
+    min-width: 100%;
+    padding: 0.25rem 0.5rem;
+}
+
+.add-movie-details h6 {
+    margin-top: 0.5rem;
+    padding: 0 2rem;
+}
+
+.det-inp {
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    border: none;
+    border-bottom: 3px solid gray;
+    padding: 0.1rem 0.5rem;
+    background: none;
+    color: white
+}
+
+.det-inp option {
+    color: black;
+}
+
+.det-next-btn {
+    min-width: 73%;
+}
+
+.adm-pnl-ip-title {
+    min-width: 7rem;
+    padding: 0.2rem;
+    font-weight: bold;
+}
+
+.movie-review textarea {
+    color: black;
+    max-width: 73rem;
+    border-radius: 0.5rem;
+    background: rgb(194, 194, 194);
+}
+
+.char-det-div {
+    min-height: 13rem;
+    min-width: 38rem;
+}
+
+.char-det-div-border {
+    border-top: 1px solid gray;
+    padding-top: 2rem;
+}
+
+.char-det {
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    min-height: 9rem;
+    padding: 0.1rem 0.5rem;
+    color: white;
+}
+
+.input-special:focus {
+    outline: none;
+    border-bottom: 3px solid red;
+}
+.dropdown-special{
+    padding: 0.25rem;
+}
+.dropdown-special:focus {
+    outline: none;
+    border-bottom: 3px solid red;
+}
+
+.textarea-special {
+    background-color: gray !important;
+    border-left: 3px solid gray;
+    padding-left: 0.25rem;
+}
+
+.textarea-special::placeholder {
+    color: black;
+}
+
+.textarea-special:focus {
+    outline: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 3px solid red;
+}
+
+
+
+
+.add-mov-pnl{
+    min-width: 100%;
+}
+.add-mov-inf-left{
+    min-width: 35%;
+    padding-left: 4rem;
+}
+.add-mov-inf-right{
+    min-width: 55%;
+    padding-right: 4rem;
+}
+.add-mov-inf-det{
+    min-width: 100%;
+}
+.add-mov-inf-det div{
+    min-width: 45%;
+}
+.add-mov-inf-det div div{
+    border-bottom: 1px solid rgb(63, 63, 63);
+    min-width: 100%;
+    padding: 0.25rem;
+}
+.add-mov-inf-det div div span{
+    min-width: 7rem;
+}
+.add-mov-inf-det div div span:first-child{
+    font-weight: bold;
+}
+.add-mov-inf-characters{
+    min-width: 100%;
+    padding: 0 2.5rem;
+}
+.add-mov-inf-characters div{
+    min-height: 3.5rem;
+    border-bottom: 1px solid rgb(63, 63, 63);
+}
+.add-mov-inf-characters div span{
+    min-width: 7rem;
+}
+.add-mov-inf-desc{
+    min-width: 100%;
+    padding: 0 2.5rem;
+}
+.add-mov-inf-desc div{
+    min-height: 8.5rem;
+    border-bottom: 1px solid rgb(63, 63, 63);
+}
+.add-mov-inf-desc div span{
+    min-width: 7rem;
+}
+.add-mov-det-btn{
+    min-width: 100%;
+    padding: 0 6.5rem;
+}
+.text-justify{
+    text-align: justify;
+}

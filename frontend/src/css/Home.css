@@ -1,0 +1,82 @@
+#home-start {
+    background-color: black;
+    min-height: 41rem;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0)) top,
+        linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)) bottom,
+        url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#home-start1{
+    min-height: 39rem;
+}
+
+.inp-start{
+    border-radius: 0.35rem;
+    background: rgba(0, 0, 0, 0.212);
+    color: white;
+    padding: 0.85rem;
+    min-width: 21rem;
+}
+
+.btn-start{
+    border: none;
+    border-radius: 0.35rem;
+    color: white;
+    background-color: rgb(252, 36, 36);
+    font-size: 1.25rem;
+    padding: 0 1.5rem;
+}
+
+#home-inf{
+    background-color: black;
+    padding: 4.5rem 0.25rem;
+}
+
+.home-inf-img{
+    max-width: 640px;
+    min-width: 640px;
+    max-height: 480px;
+    min-height: 480px;
+}
+
+.home-inf-img1{
+    background: url("../images/device-pile.png");
+}
+
+.device{
+    background: url("../images/ask-tesadufleri-sever.gif");
+}
+
+.device-gif{
+    max-width: 320px;
+    min-width: 320px;
+    max-height: 240px;
+    min-height: 240px;
+}
+
+
+.ques{
+    background: rgb(51, 51, 51);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.ques-name:hover{
+    background: rgb(70, 70, 70);
+}
+
+.cate-page{
+    padding: 0 5rem;
+    min-width: 100%;
+}
+.cate-page-mov{
+    min-width: 100%;
+    min-height: calc(100vh - 16rem);
+    margin-bottom: 5rem;
+}

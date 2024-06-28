@@ -1,0 +1,14 @@
+.search-container{
+    padding: 7rem 5rem;
+    min-height: calc(100vh);
+}
+
+.search-container-cat{
+    padding: 0rem 5rem;
+    min-height: calc(100vh);
+}
+
+.search-mov-container {
+    background: transparent;
+    max-height: 9rem;
+}

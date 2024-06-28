@@ -1,0 +1,101 @@
+#navbar {
+    padding: 1.75rem 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)) top;
+}
+
+.nav-logo {
+    max-width: 7rem;
+    min-width: 7rem;
+}
+
+.btn-login {
+    border: none;
+    border-radius: 0.35rem;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 0.25rem 1rem;
+    background-color: #ff2525;
+    color: white;
+}
+
+.nav-icons img {
+    width: 1.75rem;
+}
+
+.nav-icons {
+    height: 0.15rem;
+}
+
+.my-drdw-set button {
+    background: none;
+    border: none;
+}
+
+.my-drdw-set button:hover {
+    background: none;
+    border: none;
+}
+
+.my-drdw-set button:focus {
+    background: none;
+    border: none;
+}
+
+.my-drdw-set ul {
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: none;
+    padding: 0.5rem;
+}
+
+.my-drdw-set ul li {
+    color: rgb(199, 199, 199);
+}
+
+.my-drdw-set ul li:hover {
+    background: none;
+    color: rgb(255, 255, 255);
+}
+
+.my-drdw-set ul:focus {
+    background: none;
+    border: none;
+}
+
+.search-inp {
+    background: none;
+    border: none;
+    border-radius: 0.25rem;
+    margin-left: 2rem;
+}
+
+.search-inp-div {
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.15rem;
+}
+
+.search-inp-div input:focus {
+    outline: none !important
+}
+
+.search-inp-div input::placeholder {
+    color: whitesmoke;
+}
+
+.userInfo {
+    background: rgba(0, 0, 0, 0.750);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    min-width: 10rem;
+    top: 5.75rem;
+    right: 5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.footer {
+    background: black;
+    padding: 1.5rem 1rem;
+}

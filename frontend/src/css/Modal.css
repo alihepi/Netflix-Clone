@@ -1,0 +1,179 @@
+/* Popup (arka plan) */
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #00000091;
+    z-index: 9998;
+    overflow: auto;
+    scrollbar-width: none;
+    border-radius: 0.5rem;
+}
+
+.modal-content {
+    background-color: #181818;
+    margin: 2% auto;
+    border-radius: 0.75rem;
+    display: flex;
+    width: 50%;
+    z-index: 9999;
+    cursor: default;
+}
+
+@media screen and (max-width: 1250px) {
+    .modal-content {
+        width: 95%;
+    }
+}
+
+/* Kapat Düğmesi */
+.close {
+    color: #aaa;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    margin-right: 0.75rem;
+    font-size: 28px;
+    font-weight: bold;
+    right: 0;
+    border-radius: 50%;
+    min-width: 1.5rem;
+    min-height: 1rem;
+}
+
+.det-buttons {
+    position: absolute;
+    top: 25rem;
+    z-index: 5;
+}
+
+.img-li-gr {
+    position: absolute;
+    top: 20rem;
+    z-index: 2;
+    min-width: 100%;
+}
+
+.img-li-gr img {
+    min-width: 100%;
+}
+
+
+.modal-movie-detail {
+    max-width: 50%;
+    z-index: 99;
+}
+
+.modal-actor-inf {
+    max-width: 30%;
+    z-index: 99;
+}
+
+@media screen and (max-width: 1250px) {
+    .modal-movie-detail {
+        max-width: 63%;
+    }
+
+    .modal-actor-inf {
+        max-width: 33%;
+    }
+}
+
+
+.modal-movie-inf div span {
+    color: rgb(122, 122, 122);
+}
+
+.modal-movie-image {
+    width: 100%;
+    max-height: 29rem;
+    min-height: 27.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.icon-btn-set-play {
+    padding: 0.15rem 1.5rem;
+    background: whitesmoke;
+    border-radius: 0.25rem;
+}
+
+.icon-btn-set-play,
+.icon-btn-set-play i {
+    color: black;
+}
+
+
+
+/*Similar Movie*/
+.similar-main {
+    min-width: 100%;
+}
+
+.similar-movies {
+    min-width: 100%;
+}
+
+.similar-movie div {
+    font-size: 0.70rem;
+    max-width: 13rem;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    background: rgb(49, 49, 49);
+    color: rgb(185, 185, 185);
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    min-height: 13rem;
+    max-height: 13rem;
+    overflow: hidden;
+}
+
+.similar-movie img {
+    min-width: 13rem;
+    max-width: 13rem;
+    max-height: 7.25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    object-fit: cover;
+}
+
+.sm-ageLimit {
+    border: 1px solid gray;
+    padding: 0.25rem;
+}
+
+.sm-play-btn {
+    display: flex;
+    position: absolute;
+}
+
+.similar-movie {
+    position: relative;
+}
+
+.similar-movie .sm-play-btn {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+.sm-play-btn i {
+    display: none;
+}
+.similar-movie img:hover + .sm-play-btn i, 
+.similar-movie img:hover + .sm-play-btn i:hover,
+.sm-play-btn i:hover{
+    display: block;
+    color: whitesmoke;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.250);
+    border-radius: 50%;
+    padding: 0.25rem;
+}
+.similar-movie:hover{
+    cursor: pointer;
+}

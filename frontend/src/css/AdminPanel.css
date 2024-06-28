@@ -1,0 +1,40 @@
+.admin-panel-container{
+    min-height: calc(100vh - 5rem);
+}
+
+.admin-left-panel{
+    background: black;
+    min-height: 100%;
+    min-width: 17rem;
+    padding: 0.6rem 0.5rem;
+}
+.panel-options{
+    background: rgb(24,24,24);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+}
+.panel-options:hover{
+    background: rgb(44,44,44);
+    transition: 0.2s;
+}
+/*
+.panel-bottom-options i{
+    color: rgb(136, 136, 136);
+}
+.panel-bottom-options i:hover{
+    color: rgb(255, 255, 255);
+}
+*/
+
+.admin-right-panel{
+    background: rgb(0, 0, 0);
+    min-height: 100%;
+    min-width: calc(100% - 17.5rem);
+    padding: 0.6rem 0.5rem;
+}
+.admin-right-panel div{
+    min-width: 100%;
+}
+.right-panel-other{
+    min-height: 100%;
+}

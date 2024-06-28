@@ -1,0 +1,99 @@
+.signup *{
+    color: black;
+}
+.signup-page{
+    color: black;
+    min-height: calc(100vh - 11rem);
+}
+.signup-inf-text{
+    max-width: 16rem;
+    font-size: 1.25rem;
+}
+.signup1-btn{
+    background: rgb(248, 0, 0);
+    border: none;
+    padding: 0.5rem 0.75rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    min-width: 20rem; 
+    min-height: 3rem;   
+}
+
+.regform-inf-text{
+    max-width: 27rem;
+}
+.rg-inf-t{
+    font-size: 1.1rem;
+    color: rgb(51, 51, 51);
+}
+.rf-input-name span{
+    min-width: 3rem;
+    font-size: 0.75rem;
+    color: gray;
+}
+.rf-input-name input {
+    border: none;
+    border: 1px solid gray;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+}
+.toapp-icon{
+    font-size: 1.5rem;
+    color: rgb(248, 0, 0);
+}
+.toapp-icon2{
+    font-size: 1.75rem;
+    color: rgb(248, 0, 0);
+    border: 1px solid rgb(248, 0, 0);
+    border-radius: 50%;
+    padding: 0 0.6rem;
+}
+
+.plan{
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: rgb(248, 248, 248);
+    box-shadow: 2px 2px 7px gray;
+    cursor: pointer;
+}
+.plan:hover{
+    transition: 0.3s;
+    box-shadow: 2px 2px 7px rgb(248, 0, 0);
+}
+.plan-header{
+    color: red;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid gray;
+}
+.plan-text{
+    font-size: 0.8rem;
+    color: rgb(65, 65, 65);
+}
+
+.planform-inf-text{
+    font-size: 0.75rem;
+    color: gray;
+    max-width: 60rem;
+}
+
+.payment-input{
+    border: none;
+    border: 1px solid gray;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    min-width: 20rem;
+}
+
+.signup-btn-inf-text{
+    min-height: 1.5rem;
+}
+
+.footer-user{
+    background: rgb(235, 235, 235);
+}
+.footer-user *{
+    color: black;
+}
