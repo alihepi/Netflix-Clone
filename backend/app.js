@@ -21,13 +21,13 @@ var app = express();
 app.use(passport.initialize());
 
 const corsOptions = {
-  origin: 'https://netflix-clone-backend-alihappy.vercel.app/api',
+  origin: ['https://netflix-clone-backend-alihappy.vercel.app/api', 'https://netflix-clone-alihappy.vercel.app/'],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   optionsSuccessStatus: 200,
   allowedHeaders: ['Content-Type', 'Authorization']
 };
 
-app.use(cors());
+app.use(cors(corsOptions));
 
 app.use(logger('dev'));
 app.use(express.json());
