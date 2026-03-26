@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.574.0",
+    "@aws-sdk/client-s3": "^3.1017.0",
     "aws-sdk": "^2.1618.0",
     "axios": "^1.13.5",
     "bootstrap": "^5.3.3",
