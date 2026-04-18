@@ -12,7 +12,7 @@
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1017.0",
     "aws-sdk": "^2.1618.0",
-    "axios": "^1.13.5",
+    "axios": "^1.15.0",
     "bootstrap": "^5.3.3",
     "dotenv": "^16.4.5",
     "react": "^18.3.1",
